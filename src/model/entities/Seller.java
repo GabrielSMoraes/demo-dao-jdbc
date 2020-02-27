@@ -12,7 +12,7 @@ public class Seller implements Serializable{
 	private Double baseSalary;
 	
 	private Department department;
-	public Seller (int i, String string, String string2, java.util.Date date, Department obj) {
+	public Seller () {
 		
 	}
 	public Seller(Integer id, String name, String email, Date birthDate, Double baseSalary, Department department) {
